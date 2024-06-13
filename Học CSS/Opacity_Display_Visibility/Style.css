@@ -1,0 +1,29 @@
+body {
+  /* background-image: url(./img/BongLau.jbg.jpg); */
+  /* background-color: rgb(43, 23, 156); */
+  background-image: url(./img/anhNen.jbg.webp);
+}
+h1 {
+  color: brown;
+  text-align: left;
+  text-transform: capitalize;
+  /* Opacity hiển thị đậm nhạt*/
+  opacity: 50%;
+}
+.value1 {
+  color: aqua;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  /*  display xóa bock và ko thể tác động */
+  display: none;
+}
+.value2 {
+  color: rgb(69, 92, 47);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  text-transform: none;
+  text-align: left;
+  /* visibility nhưng vẫn để lại vùng nhớ */
+  visibility: hidden;
+}
