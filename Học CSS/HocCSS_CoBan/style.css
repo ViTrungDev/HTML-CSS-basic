@@ -1,0 +1,14 @@
+h1 {
+  /* màu chữ */
+  color: aqua;
+  /* kích thước chữ */
+  font-size: 18px;
+  /* Font chữ */
+  font-family: Arial, Helvetica, sans-serif;
+  /* kiểu chữ */
+  font-style: italic;
+  /* căn giữa */
+  text-align: center;
+  /* chuyển hoa thường */
+  text-transform: capitalize;
+}
