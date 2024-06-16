@@ -17,7 +17,7 @@
 - checkbox:
 - date:
 - number:
-- email:
+- email: cho phép nhập email
 
 * thuộc tính của input
 
