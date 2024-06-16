@@ -9,6 +9,10 @@
       tr,
       td {
         border: 1px solid black;
+        border-collapse: collapse;
+        /* thu gọn đường viền */
+        border-radius: 10px;
+        text-align: center;
       }
       body {
         padding: 0px;
@@ -20,10 +24,10 @@
   </head>
   <body>
     <h1>Học về thẻ table</h1>
-    <table>
+    <table style="width: 60%">
       <thead>
         <!-- <thead>: Xác định nội dung các tiêu đề trong một bảng -->
-        <tr>
+        <tr style="height: 50px">
           <!-- <tr> Xác định một hàng (row) trong bảng -->
           <th>Thông tin sản phẩm</th>
           <!-- <th>Thêm các ô tiêu đề (Table Header) -->
