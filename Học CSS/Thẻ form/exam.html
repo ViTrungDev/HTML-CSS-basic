@@ -7,14 +7,19 @@
       body {
         padding: 10px 30px 30px 30px;
         margin-left: 50px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
       }
     </style>
     <title>From trong html</title>
   </head>
   <body>
     <h2>From đăng ký thành viên</h2>
-    <form action="" method="">
-      <!-- <input
+    <fieldset>
+      <legend>Đăng ký thành viên</legend>
+      <form action="" method="">
+        <!-- <input
         type="text"
         name=""
         id=""
@@ -31,21 +36,80 @@
         placeholder="password của bạn"
       />
       <br /><br /> -->
-      <label for="fullname">Tên của bạn</label><br />
-      <input type="text" name="" id="fullname" value="" size="30px" />
-      <br /><br />
-      <label for="email">Email của bạn</label><br />
-      <input type="email" name="" id="email" value="" size="30px" />
-      <br /><br />
-      <label for="password">Password</label><br />
-      <input
-        type="password"
-        name="password"
-        id="password"
-        value=""
-        size="30px"
-      />
-      <br /><br />
-    </form>
+        <label for="fullname">Tên của bạn</label><br />
+        <input type="text" name="" id="fullname" value="" size="30px" />
+        <br /><br />
+        <label for="email">Email của bạn</label><br />
+        <input type="email" name="" id="email" value="" size="30px" />
+        <br /><br />
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          value=""
+          size="30px"
+        /><br /><br />
+        <label for="phone">Số điện thoại</label><br />
+        <input type="number" name="phone" id="phone" value="" size="30px" />
+        <br /><br />
+
+        <label for="gender">Giới tính</label>
+        <label
+          ><input
+            type="radio"
+            name="gender"
+            id="gender"
+            value=""
+            size="30px"
+          />nam</label
+        >
+
+        <label>
+          <input
+            type="radio"
+            name="gender"
+            id="gender"
+            value=""
+            size="30px"
+          />nữ</label
+        >
+        <label>
+          <input
+            type="radio"
+            name="gender"
+            id="gender"
+            value=""
+            size="30px"
+          />khác</label
+        >
+        <br />
+        <label for="SoThich">Sở thích:</label>
+        <label>
+          <input type="checkbox" name="SoThich" id="SoThich" />Bóng đá</label
+        >
+        <label>
+          <input type="checkbox" name="SoThich" id="SoThich" />Bóng bàn</label
+        >
+        <label>
+          <input type="checkbox" name="SoThich" id="SoThich" />Xem phim</label
+        ><br />
+        <label for="date"> Năm sinh</label>
+        <input type="date" id="date" /><br /><br />
+        <label for="tinhThanh">Tỉnh thành</label>
+        <select name="tinhThanh">
+          <option value="1">Hà Nội</option>
+          <option value="1">HCM</option>
+          <option value="1" selected>Thanh Hóa</option>
+          <option value="1">Phú Quốc</option></select
+        ><br />
+        <label for="anh">Ảnh đại diện</label>
+        <input type="file" name="anh" id="anh" /><br />
+        <label for="gioithieu"> Giới thiệu về bản thân</label>
+        <textarea rows="5" cols="60"></textarea><br />
+        <button>Đăng ký</button>
+        <button type="reset">làm lại</button>
+      </form>
+    </fieldset>
   </body>
 </html>
