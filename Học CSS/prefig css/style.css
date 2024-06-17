@@ -1,0 +1,7 @@
+h1 {
+  color: brown;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; /* ko thể copy*/
+}
