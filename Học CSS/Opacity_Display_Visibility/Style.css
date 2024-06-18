@@ -1,7 +1,8 @@
 body {
-  /* background-image: url(./img/BongLau.jbg.jpg); */
-  /* background-color: rgb(43, 23, 156); */
   background-image: url(./img/anhNen.jbg.webp);
+  background-repeat: no-repeat; /* ko lặp lại hình nền*/
+  background-attachment: fixed; /* che phủ toàn bộ trang*/
+  background-size: 100% 100%; /*che phủ đều 100%*/
 }
 h1 {
   color: brown;
