@@ -1,0 +1,27 @@
+/*trạng thái mặc định chưa làm gì*/
+#học_pseudo {
+  color: brown;
+  font-size: 30px;
+}
+/* trạng thái khi di chuột qua*/
+#học_pseudo:hover {
+  color: blue;
+  font-size: 40px;
+  font-style: italic;
+}
+/* khi nhấn vào*/
+.nôi_dung:active {
+  color: chartreuse;
+  font-size: 25px;
+}
+
+/*Khi chưa nhấn vào link*/
+.click_me:link {
+  color: yellow;
+  font-size: 20px;
+  text-decoration: none;
+}
+/* sau khi click vào link*/
+.click_me:visited {
+  color: blue;
+}

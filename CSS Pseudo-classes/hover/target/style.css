@@ -1,0 +1,34 @@
+.menu {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  list-style-type: none; /* loại bỏ dấu * trước tên*/
+}
+li a {
+  text-decoration: none; /* loại bỏ gạch chân*/
+  color: rgb(24, 95, 95);
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 16px;
+}
+li {
+  float: left;
+}
+a:hover {
+  background-color: rgb(190, 65, 65);
+  color: rgb(240, 246, 64);
+}
+/* Trạng thái khi gọi đến*/
+#Mobai:target {
+  color: brown;
+}
+#Thanbai:target {
+  color: red;
+}
+#Ketbai:target {
+  color: red;
+}
