@@ -1,0 +1,16 @@
+.Box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: antiquewhite;
+  text-align: center;
+  font-size: 25px;
+  /* thuộc tính padding được sử dụng để 
+  thêm khoảng cách giữa nội dung của một phần tử và viền của nó*/
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  /* hoặc viết nhanh theo chiều kim đồng hồ*/
+  padding: 10px 10px 10px 10px;
+}
