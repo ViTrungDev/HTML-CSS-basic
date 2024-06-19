@@ -1,0 +1,12 @@
+.Box {
+  width: 100px;
+  height: 200px;
+  background-color: red;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  /* thuộc tính border(viền) bao gồm độ rộng viền, kiểu viền, màu viền*/
+  border: 5px solid blue;
+  /* border- radio: bo góc */
+  border-radius: 70px;
+}
