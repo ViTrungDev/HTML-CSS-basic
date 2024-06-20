@@ -13,7 +13,7 @@ body {
   background-color: red;
   width: 80px;
   height: 80px;
-  /* margin-left: 10px; */
+  margin-left: 10px;
   padding: 10px;
 }
 .box1 {
@@ -21,9 +21,9 @@ body {
 }
 .box2 {
   border: 5px solid rgb(49, 38, 38);
-  margin-left: 105px;
+  margin-left: 115px;
 }
 .box3 {
   border: 5px solid rgb(19, 77, 124);
-  margin-left: 208px;
+  margin-left: 218px;
 }
