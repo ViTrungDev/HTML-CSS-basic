@@ -1,0 +1,51 @@
+.Box {
+  background-color: yellow;
+  font-size: 30px;
+  border: 2px solid #cccccc;
+}
+.content1 {
+  margin-right: 20px;
+}
+.content2 {
+  margin-left: 30px;
+}
+.container p {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  text-align: center;
+}
+.container .box1 {
+  background-color: yellowgreen;
+  margin-bottom: 50px;
+}
+.container .box2 {
+  background-color: rgb(219, 156, 9);
+  margin-top: 100px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(200, 43, 132);
+}
+h2 {
+  margin-bottom: 30px;
+}
+.content p {
+  font: size 20px;
+  text-align: center;
+  background-color: #db1616;
+  height: 40px;
+  margin-top: 50px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
