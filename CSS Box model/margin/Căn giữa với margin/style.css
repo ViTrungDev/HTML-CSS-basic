@@ -1,0 +1,20 @@
+body {
+  background-color: #ddd;
+}
+.container h2 {
+  font-size: 40px;
+}
+.container p {
+  font-size: 24px;
+  line-height: 1.4; /* khoảng cách giữa các dòng*/
+}
+.container {
+  /* căn lề cho khối div*/
+  margin: 0 auto;
+  /* quy định kích thước tối đa của phần tử div là 1000px*/
+  max-width: 1000px;
+}
+.container img {
+  /* quy định độ rộng mãx của ảnh là 600px*/
+  max-width: 400px;
+}
