@@ -1,0 +1,6 @@
+/* display: block hiển thị trên toàn phần cha mỗi phàn tử mới đc xuống dòng và đệm thêm khẳng trắng*/
+strong {
+  color: blue;
+}
+/* inline là chỉ ở trên 1 dòng và có một số thuộc tính ko thể áp dụng đc ví dụ như width, height,padding,margin*/
+/* nếu muốn sét thuộc tính trên 1 dòng ta có thể dùng display: inline-block*/
