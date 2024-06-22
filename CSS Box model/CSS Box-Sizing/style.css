@@ -1,0 +1,11 @@
+.box {
+  width: 100px;
+  height: 150px;
+  padding: 10px;
+  border: 5px solid blue;
+  box-sizing: content-box;
+}
+.box2 {
+  /* chiều cao vaf chiều rộng sẽ ko bị thay đối khi bị tác động bới padding và border*/
+  box-sizing: border-box;
+}
