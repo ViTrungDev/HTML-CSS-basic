@@ -1,0 +1,18 @@
+/* chuyển đối từ 1 rem = 16px thành 1 rem = 10px: 10/16*100%=0,625 */
+/* thẻ rem thụ thuộc vào thẻ html*/
+html {
+  font-size: 62.5%;
+  /* bây h 1 rem = 10 px*/
+}
+h2 {
+  font-size: 4.4rem;
+  /* 4.4 rem = 44 px*/
+}
+p {
+  font-size: 3rem;
+}
+.content {
+  width: 22rem;
+  height: 18rem;
+  background-color: aqua;
+}
