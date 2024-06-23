@@ -1,0 +1,17 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+p {
+  /* độ dày chữ là font- weight*/
+  font-weight: 400;
+  /* khoảng cách giữa các dòng*/
+  line-height: 1;
+  line-height: 50%;
+}
