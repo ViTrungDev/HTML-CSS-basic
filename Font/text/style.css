@@ -1,0 +1,10 @@
+p {
+  /* khoảng cách giữa các ký tự*/
+  letter-spacing: 0px;
+  /* khoảng cách giữa các từ*/
+  word-spacing: 10px;
+  /* căn đều hai bên*/
+  text-align: justify;
+  /* Căn lề giữa*/
+  text-align: center;
+}
