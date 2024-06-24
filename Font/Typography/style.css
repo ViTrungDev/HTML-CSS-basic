@@ -1,0 +1,14 @@
+p {
+  /* Đây là trạng thái mặc định  */
+  white-space: none;
+  /* Ko xuống dòng cho dù chạm tới lề */
+  white-space: nowrap;
+  /* giữ nguyên định dạng code giống thẻ pre */
+  white-space: pre;
+  /* xóa bộ toàn bộ dấu cách dư thừa trên từng dòng*/
+  white-space: pre-line;
+  /*  Bảo toàn dấu enter  */
+  white-space: pre-wrap;
+  /* nếu người dùng nhập từ dài quá thif bẻ xuống dòng*/
+  word-break: break-all;
+}
