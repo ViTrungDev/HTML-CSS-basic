@@ -1,0 +1,18 @@
+.line {
+  margin: 40px;
+  /* text shadow: ngang doc blur mau */
+  text-shadow: 20px 20px 0px blue;
+}
+.over {
+  width: 300px;
+  height: 200px;
+  background-color: #d3eb31d7;
+  /*  Trang thai mac dinh */
+  overflow: visible;
+  /* An di noi dung thua */
+  overflow: hidden;
+  /* Luon luon co thanh cuon */
+  overflow: scroll;
+  /* chi khi vuot moi tao thanh cuon*/
+  overflow: auto;
+}
