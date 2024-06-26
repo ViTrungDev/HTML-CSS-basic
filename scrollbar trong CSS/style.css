@@ -1,0 +1,30 @@
+p {
+  text-align: justify;
+}
+.line {
+  width: 200px;
+  height: 400px;
+  background-color: #6ee03d;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+/* width : chieu rong thanh cuon*/
+.line::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.line::-webkit-scrollbar-track {
+  background: #dfb4b4;
+}
+
+/* Handle thanh cuon */
+.line::-webkit-scrollbar-thumb {
+  background: #a21313;
+  border-radius: 5px;
+}
+
+/* Handle on hover: trang thai khi hover */
+.line::-webkit-scrollbar-thumb:hover {
+  background: #1903a9;
+}
