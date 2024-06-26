@@ -1,0 +1,15 @@
+/*  tao 1 dong co dau 3 cham */
+h1 {
+  width: 300px;
+  white-space: nowrap;
+  background-color: rgb(250, 170, 234);
+  overflow: hidden; /* an noi dung thua*/
+  text-overflow: ellipsis; /* tao dau ...*/
+}
+h2 {
+  background-color: aqua;
+  overflow: hidden;
+  -webkit-line-clamp: 1; /* tao tren 1 dong*/
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
