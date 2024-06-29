@@ -1,0 +1,13 @@
+.box {
+  /* chiem 100% khung hinh*/
+  height: 100vh;
+  background-image: url(./img/traitim1.png), url(./img/anh\ nen.jpg);
+  /*no-repeat : ko lap lai anh*/
+  background-repeat: no-repeat;
+  /* nhan ban theo truc x */
+  background-repeat: repeat-x;
+  /* nhan ban theo truc x*/
+  background-repeat: repeat-y;
+  /*  thuoc tinh mac dinh cua repeat */
+  background-repeat: repeat;
+}
