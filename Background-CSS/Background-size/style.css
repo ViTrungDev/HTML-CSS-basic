@@ -1,0 +1,13 @@
+.box {
+  width: 500px;
+  height: 300px;
+  background-image: url(./img/dog.jpg);
+  background-repeat: no-repeat;
+  border: 5px solid black;
+  /*  ảnh sẽ tự co giản cho phù hợp với box chứa nó */
+  background-size: auto;
+  /* sẽ tự chia hình nền để phủ kín box */
+  background-size: cover;
+  /* hình nền sẽ tự chia tỷ lệ để phù hợp với kích thước nhỏ nhất của phần tử. */
+  background-size: contain;
+}
