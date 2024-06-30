@@ -1,0 +1,46 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-image: url(./img/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  border: 20px dotted black;
+  /* ảnh sẽ đổ full kích thước từ padding+border+content */
+  background-clip: border-box;
+  /*  ảnh chỉ đổ đến padding */
+  background-clip: padding-box;
+  /*  ảnh chỉ đổ đến phần content */
+  background-clip: content-box;
+}
+.text_hl {
+  /*  mau mac dinh trong suot */
+  color: transparent;
+  background-color: aqua;
+  background: linear-gradient(
+    214deg,
+    rgba(21, 23, 22, 0.6739146342130602) 0%,
+    rgba(29, 253, 185, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  /*  sử dụng ảnh nền cho text */
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+/*  kiểm tra xem trình duyệt có hỗ trợ ko */
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  text_hl {
+    /*  mau mac dinh trong suot */
+    color: transparent;
+    background-color: aqua;
+    background: linear-gradient(
+      214deg,
+      rgba(21, 23, 22, 0.6739146342130602) 0%,
+      rgba(29, 253, 185, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    /*  sử dụng ảnh nền cho text */
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+}
