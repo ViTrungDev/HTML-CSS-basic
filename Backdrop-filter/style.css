@@ -1,0 +1,39 @@
+body {
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 600px;
+}
+.box {
+  background-color: rgba(116, 198, 16, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 20px 100px;
+  margin: 30px;
+  font-weight: bold;
+}
+@supports (backdrop-filter: blur(5px)) or (-webkit-backdrop-filter: blur(5px)) {
+  .box {
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 20px 100px;
+    margin: 30px;
+    font-weight: bold;
+  }
+}
+/* blur(): độ nhòe
+brightness(): độ sáng
+contrast(): tương phản
+drop-shadow():bóng đổ
+grayscale(): thang đọo sám
+hue-rotate(): xoay màu sắc
+invert(): đảo ngược
+opacity(): độ mờ
+sepia(): màu nâu đỏ
+saturate() : độ bảo hòa
+*/
