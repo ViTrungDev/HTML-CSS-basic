@@ -1,0 +1,11 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-image: url(./img/1.png);
+  border: 5px dotted blue;
+  padding: 50px;
+  /*  gốc của ảnh */
+  background-origin: border-box; /* mặc định*/
+  background-origin: padding-box;
+  background-origin: content-box;
+}
