@@ -1,0 +1,18 @@
+body {
+  margin-top: 60px;
+}
+.box {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background: #caf118a0;
+  /*  bong do theo tru x la 10 y la 10 va độ nhòe là 20px mau xam ccc*/
+  box-shadow: 10px 10px 20px #ccc;
+  /*  bong do theo tru x la 10 y la 10 va độ nhòe là 20px độ rộng bóng là 60px mau xam ccc*/
+  box-shadow: 10px 10px 20px 60px #ccc;
+
+  /*  đổ bóng trên phần tử gốc */
+  box-shadow: inset 10px 10px;
+  /*  các phần tự còn lại viết như trên */
+  box-shadow: 220px 0px pink, 0px 220px blue, 220px 220px red;
+}
