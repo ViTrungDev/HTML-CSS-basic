@@ -1,0 +1,19 @@
+.box {
+  font-size: 62, 5%;
+}
+.anh_demo {
+  max-width: 600px;
+  /*  ngăn chặn người dùng tải ảnh về */
+  pointer-events: none;
+  margin-bottom: 50px;
+}
+.link_demo {
+  margin-left: 20px;
+  font-size: 1.25rem;
+  background: black;
+  color: white;
+  padding: 15px;
+  /*  loại bỏ gạch chân */
+  text-decoration: none;
+  pointer-events: none;
+}
