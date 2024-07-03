@@ -24,4 +24,5 @@
 
   /*  cắt theo hình đa giác theo cặp góc x y, x y , x y , x y*/
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+  border-radius: 20px;
 }
