@@ -1,0 +1,27 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: url(./bg/ava.png) center/cover;
+  margin: 0 auto;
+  /* bo tron*/
+  clip-path: circle(50%);
+  /*  dich tam duong tron theo truc x y */
+  clip-path: circle(50% at 50% 50%);
+  /*  cat hinh chu nhat  */
+  clip-path: inset(10px);
+  /*  tren duoi / trai phai */
+  clip-path: inset(20px 30px);
+  /*  tren  / trai phai / duoi*/
+  clip-path: inset(20px 30px 40px);
+  /*  tren / phai / duoi / trai */
+  clip-path: inset(20px 30px 40px 10px);
+
+  /*  them bo goc  bang keyWork round */
+  clip-path: inset(10px round 15px);
+  clip-path: inset(10px round 15px 30px);
+  clip-path: inset(10px round 15px 30px 45px);
+  clip-path: inset(10px round 15px 30px 45px 60px);
+
+  /*  cắt theo hình đa giác theo cặp góc x y, x y , x y , x y*/
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+}
