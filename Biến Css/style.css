@@ -1,0 +1,31 @@
+/* khai bao bien tong quat */
+:root {
+  --box-height: 100px;
+  --boc-background-color: red;
+}
+/*  su dung tu khoa var() de goi ten bien */
+.box1 {
+  height: var(--box-height);
+  background: var(--boc-background-color);
+  margin-bottom: 10px;
+}
+.box2 {
+  height: var(--box-height);
+  background: var(--boc-background-color);
+  margin-bottom: 10px;
+}
+/* gía trị backup cua biến nếu ko tìm thấy giá trị */
+.box3 {
+  height: var(--box-height);
+  background: var(--boc-background-color, purple);
+  margin-bottom: 10px;
+}
+/*  có thể bị ghi đè bởi thứ tự ưu tiên */
+.box {
+  --font-size: 30px;
+  --color: brown;
+}
+strong {
+  color: var(--color);
+  font-size: var(--font-size);
+}
