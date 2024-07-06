@@ -1,0 +1,45 @@
+/* chon dong dau tien Luu y: first-line ko ta dung len inline*/
+p::first-line {
+  color: red;
+}
+/* chuyen doi the span thanh block hoac inline-block */
+span {
+  display: block;
+}
+span::first-line {
+  color: white;
+  background: black;
+}
+/*  chon chu cai dau tien */
+p::first-letter {
+  font-size: 40px;
+  color: blue;
+}
+/* chon vung dang duoc boi den */
+p::selection {
+  color: white;
+  background: rgba(69, 68, 68, 0.381);
+}
+/* tac dong len toan bo trang */
+::selection {
+  color: white;
+  background: rgba(69, 68, 68, 0.381);
+}
+/* chon cac diem danh dau */
+li::marker {
+  font-size: 40px;
+  color: red;
+}
+/*  them o dang truoc */
+.box::before {
+  content: "Em o dang truoc ne";
+}
+/* them o dang sau */
+.box::after {
+  display: inline-block;
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: blue;
+  border-radius: 999px;
+}
