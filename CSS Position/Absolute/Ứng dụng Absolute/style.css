@@ -1,0 +1,18 @@
+.font-icon-mes {
+  margin: 5rem;
+  font-size: 10rem;
+  color: rgba(23, 220, 184, 0.71);
+  /* background-color: rgb(18, 17, 17); */
+  position: relative;
+}
+.mes-number {
+  font-size: 4.5rem;
+  color: rgb(252, 251, 251);
+  background-color: red;
+  border-radius: 20px;
+  padding: 5px;
+
+  position: absolute;
+  left: 100px;
+  top: -25px;
+}
