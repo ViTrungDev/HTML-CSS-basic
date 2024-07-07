@@ -1,0 +1,35 @@
+.box {
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  color: white;
+  margin-bottom: 20px;
+  /* căn giữa chữ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  position: relative;
+  background-color: aqua;
+  width: 400px;
+  margin: 40px;
+}
+.box1 {
+  background-color: red;
+}
+
+/* absolute sẽ phụ thuộc vào lớp cha gần nhất là  position: relative; nếu ko có sẽ ăn vào thẻ gốc của html */
+.box2 {
+  background-color: rgb(0, 162, 255);
+  /* position: absolute có chức năng giúp định vị trí tuyệt đối cho các thành phần. Khi sử dụng giá trị này, thành phần sẽ được định vị trí theo thành phần bao ngoài hoặc ít nhất là theo cửa sổ trình duyệt. */
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+.box3 {
+  background-color: rgb(102, 14, 209);
+}
+h1 {
+  background-color: purple;
+}
