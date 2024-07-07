@@ -1,0 +1,24 @@
+.content a {
+  font-size: 3rem;
+}
+/*  dùng   position: fixed đề fixed cứng vị trí */
+a {
+  color: #007cf7;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.nav {
+  background-color: #555;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+h1 {
+  margin-top: 87px;
+}
+.nav a {
+  color: #fff;
+}
