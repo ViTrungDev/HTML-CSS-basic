@@ -5,11 +5,12 @@ body {
   margin: 0;
 }
 .content {
+  /* justify-content căn theo hàng ngang */
   /*  các thuộc tính đang tuân theo dạng flex ( dàn theo hàng ngang) */
   display: inline-flex;
   display: flex;
   background-color: aqua;
-  /*  trạng thái mặc định */
+  /*  trạng thái mặc định và sử dụng trong lớp cha */
   justify-content: flex-start;
   /*  dịch sang bên trái */
   justify-content: flex-end;
