@@ -1,0 +1,19 @@
+:root {
+  font-size: 1.6rem;
+}
+.content {
+  /*  các thuộc tính đang tuân theo dạng flex ( dàn theo hàng ngang) */
+  display: inline-flex;
+  display: flex;
+  background-color: aqua;
+}
+.box {
+  color: #fff;
+  padding: 20px;
+}
+.box1:hover {
+  color: red;
+}
+.box1:active {
+  color: rgb(120, 12, 147);
+}
