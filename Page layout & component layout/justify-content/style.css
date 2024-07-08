@@ -1,0 +1,34 @@
+:root {
+  font-size: 1.6rem;
+}
+body {
+  margin: 0;
+}
+.content {
+  /*  các thuộc tính đang tuân theo dạng flex ( dàn theo hàng ngang) */
+  display: inline-flex;
+  display: flex;
+  background-color: aqua;
+  /*  trạng thái mặc định */
+  justify-content: flex-start;
+  /*  dịch sang bên trái */
+  justify-content: flex-end;
+  /* căn vào giữa */
+  justify-content: center;
+  /*  cách đều nhau sát lề */
+  justify-content: space-between;
+  /* Khoảng cách giữa các khoảng trắng là bằng nhau */
+  justify-content: space-around;
+  /* Khoảng cách giữa các khoảng trắng là bằng nhau cách cả lề */
+  justify-content: space-evenly;
+}
+.box {
+  color: #fff;
+  padding: 20px;
+}
+.box1:hover {
+  color: red;
+}
+.box1:active {
+  color: rgb(120, 12, 147);
+}
