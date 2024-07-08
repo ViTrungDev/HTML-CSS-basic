@@ -1,0 +1,10 @@
+.img {
+  width: 200px;
+  /* căn lề theo left */
+  float: left;
+  /* float: right; */
+}
+/*  nếu muốn một lớp ko bị ảnh hưởng bỏi float thì ta có thể dùng */
+p:nth-last-child(1) {
+  clear: left;
+}
