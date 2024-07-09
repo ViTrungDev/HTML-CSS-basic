@@ -1,0 +1,21 @@
+.box {
+  background-color: #1223c180;
+  border: 1px solid black;
+}
+.content {
+  /* flex-direction chỉ định hướng của các mục linh hoạt. */
+  display: flex;
+  /* height: 100px; */
+  background-color: #75d786;
+  /* Trục chính của vùng chứa flex được định nghĩa giống với hướng văn bản. Điểm bắt đầu và điểm kết thúc chính giống với hướng nội dung. */
+  flex-direction: row;
+  /* Có hành vi giống như row nhưng điểm bắt đầu chính và điểm kết thúc chính ngược với hướng nội dung. */
+  flex-direction: row-reverse;
+  /* Trục chính của hộp chứa flex giống với trục khối. Điểm bắt đầu và điểm kết thúc chính giống với điểm trước và sau của chế độ viết. */
+  flex-direction: column;
+  /* Có hành vi giống như column nhưng phần bắt đầu và phần kết thúc chính thì ngược lại với hướng nội dung. */
+  flex-direction: column-reverse;
+
+  /*  cú pháp viết tắt  */
+  flex-flow: wrap row;
+}
