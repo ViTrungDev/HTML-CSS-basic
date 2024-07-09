@@ -1,0 +1,28 @@
+.content {
+  height: 200px;
+  display: flex;
+  background-color: #ccc;
+  /* Tự bẻ hàng khi bị thiếu chỗ */
+  flex-wrap: wrap;
+  /* Tự bẻ hàng khi bị thiếu chỗ và đảo ngược*/
+  /* flex-wrap: wrap-reverse; */
+
+  /* tự động kéo dãn */
+  align-content: stretch;
+  /* dồn lên phía top */
+  align-content: flex-start;
+  /* dồn xuống phía dưới */
+  align-content: flex-end;
+
+  /* dồn vào giữa */
+  align-content: center;
+  /* cách top và cách nhau 1 khoảng bằng nhau */
+  align-content: space-around;
+  /* cách nhau 1 khoảng bằng nhau và ko cách lề */
+  align-content: space-between;
+}
+.box {
+  width: 30%;
+  background-color: blue;
+  border: 1px solid black;
+}
