@@ -1,0 +1,18 @@
+.contener {
+  height: 150px;
+  background-color: cyan;
+  display: flex;
+  align-items: self-start;
+  flex-direction: row;
+}
+.box {
+  padding: 20px;
+  border: 1px solid black;
+}
+.box2 {
+  /* điều chỉnh trực tiếp vào 1 đối tượng cụ thể xuống phía bottom */
+  align-self: flex-end;
+}
+.box3 {
+  align-self: flex-start;
+}
