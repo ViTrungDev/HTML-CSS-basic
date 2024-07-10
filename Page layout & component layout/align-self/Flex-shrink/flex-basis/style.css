@@ -1,0 +1,18 @@
+.container {
+  height: 150px;
+  background-color: #12945c9d;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  padding: 10px;
+  background-color: #cb1010;
+  border: 1px solid;
+  /* width: 30%; */
+  /*  căn giữa text */
+  /* justify-content: center;
+  align-items: center;
+  position: relative; */
+  /* căn theo trục colum */
+  flex-basis: 30%;
+}
