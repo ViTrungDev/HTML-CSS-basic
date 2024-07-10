@@ -1,0 +1,17 @@
+.container {
+  height: 150px;
+  display: flex;
+  background-color: #10a069ce;
+}
+.box {
+  padding: 10px;
+  border: 1px solid black;
+  width: 30%;
+}
+.box1 {
+  /* Thuộc tính CSS thiết lập hệ số thu nhỏ flex của một mục flex.
+     Nếu kích thước của tất cả các mục flex lớn hơn vùng chứa flex,
+     các mục flex có thể thu nhỏ để vừa với giá trị của chúng .
+     Không gian trống âm của mỗi dòng flex được phân bổ giữa các mục flex của dòng có giá trị lớn hơn . */
+  flex-shrink: 0;
+}
