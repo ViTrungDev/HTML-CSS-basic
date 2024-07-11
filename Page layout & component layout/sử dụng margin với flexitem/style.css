@@ -1,0 +1,14 @@
+.container {
+  height: 200px;
+  background-color: #0ea8c7;
+  display: flex;
+  /*  căn giữa */
+  /* justify-content: center;
+    align-items: center; */
+}
+.fa-youtube {
+  /* hoặc ta sử dụng margin: và chuyền auto vào */
+  margin: auto;
+  font-size: 40px;
+  color: red;
+}
