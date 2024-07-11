@@ -1,0 +1,39 @@
+.box1 {
+  background-color: #0daeed;
+  /* dùng order để thiết lập vị trí hiện thị của các box mà ko cần hiệu chỉnh lại file html */
+  order: 1;
+}
+.box2 {
+  background-color: #ed930d;
+}
+.box3 {
+  background-color: #0ded5f;
+}
+.box4 {
+  background-color: #790ded;
+}
+.container {
+  display: flex;
+}
+/* 
+mức độ ưu tiên:
+1.content with
+2.width
+3.flex-basis
+4. max-width và min-width
+nếu max-width < flex-basis thìn max-width đc ưu tiên hơn
+nếu max-width > flex-basis thìn flex-basis đc ưu tiên hơn
+*/
+.box {
+  /* width: 200px; */
+  flex-basis: 300px;
+  max-width: 400px;
+  min-width: 100px;
+
+  /* ------------------------ */
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 100px;
+  /*  cú pháp viết tắt */
+  flex: 0 1 200px;
+}
