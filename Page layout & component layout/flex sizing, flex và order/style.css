@@ -33,7 +33,7 @@ nếu max-width > flex-basis thìn flex-basis đc ưu tiên hơn
   /* ------------------------ */
   flex-grow: 0;
   flex-shrink: 1;
-  flex-shrink: 100px;
+  flex-basis: 100px;
   /*  cú pháp viết tắt */
   flex: 0 1 200px;
 }
