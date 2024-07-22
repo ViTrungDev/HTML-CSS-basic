@@ -1,0 +1,47 @@
+.box1,
+.box4,
+.box5 {
+  background-color: aqua;
+}
+.box2,
+.box3 {
+  background-color: blue;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: grid;
+  /* chia hàng và cột trong grid */
+  grid-template-columns: 100px 300px; /* chia kích thước cột*/
+  grid-template-rows: 100px 200px 50px; /* chia kích thước hàng*/
+
+  grid-template-columns: 30% 70%; /* chia kích thước cột*/
+  grid-template-rows: 100px 200px 50px; /* chia kích thước hàng*/
+
+  /*  quy định khoảng hở dòng */
+  grid-row-gap: 15px;
+  grid-column-gap: 40px;
+  /* cú pháp viết tắt giá trị đầu tiên là của row giá trị thứ 2 là của column nếu chuyền vào 1 đối số thì đc hiểu là chuyền cho cả 2 */
+  gap: 10px 25px;
+
+  /*  sử dụng repeat nếu các giá trị lặp lại */
+  grid-template-columns: repeat(2, 300px); /* 2 cột có kích thước 300px*/
+  grid-template-rows: 100px repeat(2, 200px); /* hàng đầu tiên 100px 2 hàng còn lại rộng 200px*/
+
+  /* chia cột theo trọng số */
+  grid-template-columns: 1fr 2fr; /* chia theo tỉ lệ cột thứ nhất chiếm 1/3 cột thứ 2 chiếm 2/3*/
+  grid-template-rows: 1fr 2fr 4fr;
+
+  /* chia cột với dòng với auto */
+  grid-template-columns: 100px auto;
+  grid-template-rows: 100px auto; /* ko sử dụng auto với rows*/
+
+  /* sử dụng giá trị minmax */
+  grid-template-columns: minmax(150px, 300px) minmax(200px, auto);
+  grid-template-rows: repeat(2, minmax(50px, 80px));
+  /* xét chiều cao mặc định cho rows và column nếu như ko quy định thuộc tính chiều cao cho nó */
+  grid-auto-rows: 50px;
+}
