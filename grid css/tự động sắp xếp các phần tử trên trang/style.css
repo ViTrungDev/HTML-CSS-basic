@@ -1,0 +1,18 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+}
+.container {
+  display: grid;
+  gap: 5px;
+  /* mặc định là chiều row */
+  grid-auto-flow: row;
+  /* ta cần chia cột  */
+  grid-template-columns: repeat(3, 100px);
+  /* quy định sang chiều column */
+  grid-auto-flow: column;
+  /* ta cần chia cột  */
+  grid-template-rows: repeat(3, 100px);
+}
