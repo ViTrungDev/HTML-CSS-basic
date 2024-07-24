@@ -1,0 +1,38 @@
+.box1,
+.box4,
+.box5 {
+  background-color: aqua;
+}
+.box2,
+.box3 {
+  background-color: blue;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.container {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 50px 100px 200px;
+  height: 100vh;
+  /* thuộc tính mặc định của align-content là: start */
+  align-content: start;
+  align-content: end;
+  /* cách đều nhau và cách lề */
+  align-content: space-around;
+  /* cách đều nhau ko cách lề */
+  align-content: space-between;
+  /* cách đều nhau và cách lề đều */
+  align-content: space-evenly;
+
+  /* thuộc tính mặc định của justify-items là: start */
+  justify-content: start;
+  justify-content: end;
+  justify-content: space-around;
+  justify-content: space-between;
+  justify-content: space-evenly;
+}
