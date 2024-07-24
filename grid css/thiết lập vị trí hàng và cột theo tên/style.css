@@ -1,0 +1,36 @@
+.box1,
+.box4,
+.box5 {
+  background-color: aqua;
+}
+.box2,
+.box3 {
+  background-color: blue;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.container {
+  display: grid;
+  gap: 10px;
+  /* định vị phần tử theo tên */
+  grid-template-areas:
+    "header header header"
+    "menu content sidebar"
+    "menu footer footer";
+}
+.box1 {
+  grid-area: header;
+}
+.box2 {
+  grid-area: menu;
+}
+.boc3 {
+  grid-area: content;
+}
+.box5 {
+  grid-area: footer;
+}
