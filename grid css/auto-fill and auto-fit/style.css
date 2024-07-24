@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cd1515;
+  border-radius: 10px;
+}
+.container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(5, 1fr);
+  /* auto-fill tự động điền vào chỗ trống cho đủ hàng */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* auto-fit tự giản ra cho vừa box chứa vào ko tự động thêm vào*/
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
