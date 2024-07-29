@@ -1,0 +1,63 @@
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+p {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+/* áp dụng cho tất cả thiết bị có màn hình */
+@media (max-width: 600px) {
+  /*nhỏ hơn 600 thì mới áp dụng*/
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+}
+/* dành cho máy in hoặc nhấn tổ hợp phím ctrl + D */
+@media print {
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+  }
+}
+/* Lớn hơn 1000 thì mới áp dụng */
+@media (min-width: 1000px) {
+  .box {
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+  }
+}
+/* áp dụng cả hai điều kiện */
+@media (max-width: 600px), (min-width: 1000px) {
+  .box {
+    border-radius: 20px;
+    border: 10px solid green;
+    background-color: #09316e;
+  }
+}
+/* áp dụng cho thiết bị khi xoay màn hình */
+@media (orientation: landscape) {
+  .box {
+    border-radius: 20px;
+    border: 10px solid red;
+    background-color: #09316e;
+    width: 100px;
+    height: 100px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
