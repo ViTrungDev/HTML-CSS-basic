@@ -1,0 +1,24 @@
+body {
+  background-color: cyan;
+}
+/* trừ 0.02 px để xé nhỏ khoảng cách */
+@media (min-width: 319px) and (max-width: 480px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media (min-width: 480.98px) and (max-width: 1200px) {
+  body {
+    background-color: chocolate;
+  }
+}
+@media (min-width: 1200.98px) and (max-width: 1600px) {
+  body {
+    background-color: green;
+  }
+}
+@media (min-width: 1600.98px) {
+  body {
+    background-color: purple;
+  }
+}
