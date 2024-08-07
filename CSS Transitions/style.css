@@ -1,0 +1,20 @@
+/* beautiful btn */
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    color:#fff;
+    cursor:pointer;
+    border:none;
+    /* thuộc tính transitions */
+    transition-property: color;/* thuộc tính sử dụng transitions nếu ko có thì mặc định all*/
+    transition-duration: 1s;/* thời gian chuyển từ trạng thái A sang B mất bao nhiêu s*/
+    transition-timing-function: linear;/* sác định cách transitions xảy ra*/
+    transition-delay: 3s;/* Trạng thái delay của transitions */
+
+    transition:all 0.9s;
+}
+.btn:hover{
+    background-color: red;
+    color:yellow;
+}
