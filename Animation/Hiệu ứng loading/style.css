@@ -1,0 +1,41 @@
+.spinner {
+  --size: 200px;
+  --color: blue;
+  --second-color: yellow;
+  position: relative;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.spinner::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--size);
+  height: var(--size);
+  border: 20px solid var(--color);
+  border-top: 20px solid var(--second-color);
+  border-radius: 999px;
+  translate:-50% -50%;
+  animation: spinner__loading 2s linear infinite;
+  box-shadow: 0 0 10px var(--color);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes spinner__loading {
+  0% {
+    rotate: 0;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
