@@ -37,7 +37,17 @@
       />
       <br /><br /> -->
         <label for="fullname">Tên của bạn</label><br />
-        <input type="text" name="" id="fullname" value="" size="30px" />
+        <!-- dùng required để yêu cầu người dùng nhập nếu ko nhập sẽ báo lỗi
+         autocomplete="off" để tắt gợi ý những lần nhập trước đó -->
+        <input
+          type="text"
+          name=""
+          id="fullname"
+          value=""
+          size="30px"
+          required
+          autocomplete="off"
+        />
         <br /><br />
         <label for="email">Email của bạn</label><br />
         <input type="email" name="" id="email" value="" size="30px" />
